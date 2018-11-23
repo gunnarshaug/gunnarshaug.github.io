@@ -1,0 +1,65 @@
+
+
+#tyv {
+position: absolute;
+width: 90px;
+height: 150px;
+background-image: url("../bilder/animasjon.png");  
+left: -100px;
+top: 300px;
+background-position-x: 8px;
+animation: snik 10s infinite linear,
+         run 0.5s infinite steps(6);
+   }
+
+@keyframes snik {
+    100% { left: 110%; }
+}
+
+@keyframes run {
+    100% { background-position-x: 600px; }
+}
+
+ol > li{
+    list-style-type: circle;
+    font-size: 13px;
+}
+
+/*div{
+    background: url("../bilder/hovedkort.png");
+}*/
+
+article {
+    border: solid white;
+    width: 500px;
+    height: 200px;
+}
+
+
+#hovedkort{
+    background-image: url("../bilder/hovedkort.png");
+    position: relative;
+    height: 281px;
+    width: 180px;
+    background-size: cover;  
+}
+
+#ram {
+    background-image: url("../bilder/ram.png");
+    position: relative;
+    height: 195px;
+    width: 218px;
+    background-size: cover;  
+}
+
+
+
+#cpu {
+    background-image: url("../bilder/CPU.png");
+    position: relative;
+    height: 180px;
+    width: 233px;
+    background-size: cover;
+}
+
+
