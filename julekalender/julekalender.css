@@ -32,11 +32,11 @@
 }
 
 #vis {
-    width: 200px;
-    height: 200px;
     border: solid red 1px;
     display: none;
     position: absolute;
     top: 10em;
     left: 10em;
+    width: 200px;
+    height: 200px;
     }
